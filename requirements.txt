@@ -21,3 +21,7 @@ mlflow==2.4.1
 
 werkzeug==2.2.2
 protobuf==3.20.3
+
+# Formatage
+flake8==5.0.4
+vulture==2.10
