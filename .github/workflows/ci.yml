@@ -23,8 +23,9 @@ jobs:
         run: flake8 formation_indus_ds_avancee
       - name: Run Vulture
         run: vulture formation_indus_ds_avancee scripts --min-confidence 100
-      - name: Run tests
+      - name: Run unit tests
         run: python -m pytest tests/test_unit
+      - name: Run functional tests
         run: python -m pytest tests/test_functional
       # Add behave command
 
